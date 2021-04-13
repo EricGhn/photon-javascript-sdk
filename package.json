@@ -1,0 +1,23 @@
+{
+  "name": "photon-javascript-sdk_v4-1-1-0",
+  "version": "1.0.0",
+  "description": "Photon Client JavaScript SDK readme.\r (C) Exit Games GmbH 2017",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricGhn/photon-javascript-sdk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricGhn/photon-javascript-sdk/issues"
+  },
+  "homepage": "https://github.com/EricGhn/photon-javascript-sdk#readme"
+}
