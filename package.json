@@ -14,6 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/EricGhn/photon-javascript-sdk.git"
   },
+  "types": "./lib/Photon-Javascript_SDK.d.ts",
   "author": "",
   "license": "ISC",
   "bugs": {
