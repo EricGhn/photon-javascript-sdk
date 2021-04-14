@@ -6,6 +6,9 @@ on:
 jobs:
   npm-publish:
     name: npm-publish --access public
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
       with:
         tag_name: "v0.0.1"
         create_tag: "true"
