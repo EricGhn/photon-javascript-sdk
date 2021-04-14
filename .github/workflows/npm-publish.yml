@@ -1,0 +1,22 @@
+name: npm-publish
+on:
+  push:
+    branches:
+      - master
+jobs:
+  npm-publish:
+    name: npm-publish --access public
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Publish if version has been updated
+      uses: pascalgn/npm-publish-action@1.3.7
+      with:
+        tag_name: "v0.0.1"
+        create_tag: "true"
+        workspace: "."
+        publish_command: "npm"
+        publish_args: "--non-interactive"
+      env:
+        NPM_AUTH_TOKEN: "0c3a993b-5d18-42c2-ab3c-22c90d3e1b69"
